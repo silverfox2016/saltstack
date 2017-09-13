@@ -1,0 +1,7 @@
+[salt-latest]
+name=SaltStack Latest Release Channel for RHEL/Centos $releasever
+baseurl=https://repo.saltstack.com/yum/redhat/6/$basearch/2016.11/
+failovermethod=priority
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.saltstack.com/yum/redhat/6Server/x86_64/2016.11/SALTSTACK-GPG-KEY.pub
